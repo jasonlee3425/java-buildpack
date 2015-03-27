@@ -18,8 +18,8 @@
 ---
 repository_root: "{default.repository.root}/openjdk/{platform}/{architecture}"
 version: 1.8.0_25
-# memory_sizes:
-  # metaspace: 64m.. 
+memory_sizes:
+  metaspace: 64m.. 
 memory_heuristics:
   heap: 85
   metaspace: 10 
